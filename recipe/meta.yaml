@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "1.4.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/networktools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/networktools/networktools_{{ version }}.tar.gz
-  sha256: d93aec5f21410c2e6e3205c565189d31452f9a3734f25c07daa0f38fd23aceb1
+  sha256: ae15b9e8f0b5e88fbd2fb8a5c3f423b4a2c1acdf65ec8d0789b8797dbe638851
 
 build:
   merge_build_host: true  # [win]
