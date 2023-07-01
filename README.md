@@ -1,11 +1,11 @@
-About r-networktools
-====================
+About r-networktools-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-networktools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=networktools
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-networktools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Includes assorted tools for network analysis. Bridge centrality; goldbricker; MDS, PCA, & eigenmodel network plotting.
 
