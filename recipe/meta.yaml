@@ -1,4 +1,4 @@
-{% set version = "1.5.2" %}
+{% set version = "1.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/networktools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/networktools/networktools_{{ version }}.tar.gz
-  sha256: 877045b0560007df40a476f60cb871e05d6264bf6bd49d1e3ddb9668992d5870
+  sha256: 759d35ca5489ee99d1dc8b9a110da0ba50a44e067c969f7c6f1e138c0a1f8916
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
